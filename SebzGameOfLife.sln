@@ -1,19 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "SebzGameOfLife\GameOfLife.csproj", "{B7A98F9F-C27A-44C5-A2A5-401AE68BD4F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SebzGameOfLife", "SebzGameOfLife\SebzGameOfLife.csproj", "{B7A98F9F-C27A-44C5-A2A5-401AE68BD4F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SebzGameOfLifeTest", "SebzGameOfLifeTest\SebzGameOfLifeTest.csproj", "{25541432-BB12-471C-AD0D-B6F102FEAB58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SebzGameOfLife.Test", "SebzGameOfLifeTest\SebzGameOfLife.Test.csproj", "{25541432-BB12-471C-AD0D-B6F102FEAB58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B7A98F9F-C27A-44C5-A2A5-401AE68BD4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +21,11 @@ Global
 		{25541432-BB12-471C-AD0D-B6F102FEAB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25541432-BB12-471C-AD0D-B6F102FEAB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25541432-BB12-471C-AD0D-B6F102FEAB58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01AF76DF-7438-4824-B0EC-4F702E34D302}
 	EndGlobalSection
 EndGlobal
