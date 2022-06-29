@@ -20,6 +20,13 @@ public class GameCellTest
     }
 
     [Fact]
+    public void Should_be_alive1_when_created_alive()
+    {
+        var sut = new GameCell(1, 1, true);
+        Assert.True(sut.IsAlive);
+    }
+
+    [Fact]
     public void Should_be_dead_when_created_dead()
     {
         var sut = new GameCell(0, 0, false);
